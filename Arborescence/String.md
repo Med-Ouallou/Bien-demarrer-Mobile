@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HelloCounter</string>
+    <string name="button_label">Cliquer ici</string>
+    <string name="welcome_message">Bienvenue dans mon application !</string>
 </resources>
