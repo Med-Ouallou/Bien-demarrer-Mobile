@@ -7,12 +7,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.solicodet.hellocounter.ui.MainScreen
 import androidx.compose.material3.MaterialTheme
+import com.solicodet.hellocounter.ui.theme.HelloCounterTheme
 
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent { MaterialTheme { MainScreen() } }
+        setContent { HelloCounterTheme { MainScreen() } }
     }
 }
 

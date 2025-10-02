@@ -9,6 +9,8 @@
 
     <!-- Compteur -->
     <string name="title_counter">Compteur</string>
+
+    <!-- Accessibilité -->
     <string name="cd_decrement">Diminuer la valeur</string>
     <string name="cd_increment">Augmenter la valeur</string>
     <string name="cd_counter_value">Valeur actuelle : %1$d</string>

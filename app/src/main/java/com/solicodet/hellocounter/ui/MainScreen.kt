@@ -20,6 +20,6 @@ fun MainScreen(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         DireBonjourSection()
-        CompteurSection() // ✅ Ajouté au Temps 2
+        CounterSection() // ✅ Ajouté au Temps 2
     }
 }

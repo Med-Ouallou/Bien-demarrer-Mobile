@@ -15,7 +15,7 @@ import androidx.compose.ui.res.stringResource
 import com.solicodet.hellocounter.R
 
 @Composable
-fun CompteurSection(modifier: Modifier = Modifier) {
+fun CounterSection(modifier: Modifier = Modifier) {
     var count by rememberSaveable { mutableStateOf(0) }
 
     // Préparer les textes a11y dans le contexte @Composable
@@ -39,8 +39,7 @@ fun CompteurSection(modifier: Modifier = Modifier) {
             IconButton(
                 onClick = { if (count > 0) count-- },
                 enabled = count > 0,
-                modifier = Modifier
-                    .size(48.dp)
+                modifier = Modifier.size(48.dp)
                     .semantics { contentDescription = decrementCd }
             ) {
                 Icon(Icons.Filled.Remove, contentDescription = null)
